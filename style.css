@@ -1,0 +1,97 @@
+#movie-backdrop {
+    width: 100%;
+}
+
+
+body {
+    background-image: url(https://i.pinimg.com/originals/1b/77/05/1b770511019d685fdb67e58ace0b737e.jpg);
+    box-sizing: content-box;  
+    overflow-x:hidden;
+}
+
+
+#navbarSupportedContent a{
+  color: rgb(0, 0, 0);
+}
+
+.navBar {
+  background-color: rgb(245, 102, 190);
+}
+
+.navBar a {
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: #F2E9E4;
+}
+
+#actors {
+  margin: 24px 16px 0 0;
+}
+.footer{
+  background-color:rgb(241, 104, 219);
+}
+
+#movie-backdrop {
+  width: 100%;
+}
+
+#container{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#container{
+    height: 2000px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#container img{
+ width: 150px;
+}
+
+#container div{
+   text-align: center;
+
+}
+
+p, h3, h2, h4, h5 {
+    color: rgb(250, 242, 242);
+}
+
+form {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   background-color: pink;
+}
+
+.hoverDetails:hover {
+  opacity: 1;
+}
+
+.movieHomepageDiv {
+  position: relative;
+}
+
+.row{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+  color: white;
+}
+.similar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: white;
+}
+
+
